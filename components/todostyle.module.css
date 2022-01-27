@@ -61,17 +61,22 @@
     }
     .input{
       width: 70%;
+      font-size: 1rem;
     }
     .individualTodo{
         width: 100%;
     }
     .todoTitle > h4 {
+        font-size: 1.1rem;
         margin-bottom: .5rem;
     }
     .btnHolder{
         display: flex;
         flex-direction: column;
         row-gap: .5rem;
+    }
+    .btnHolder > button {
+        font-size: .9rem;
     }
     .btnHolder > *:hover{
         background: #D9D7F1;
