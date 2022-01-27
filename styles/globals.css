@@ -29,3 +29,10 @@ button{
   padding: .3rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600) {
+  button{
+    font-size: .8rem;
+    padding: .1rem;
+  }
+}
