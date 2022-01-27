@@ -1,0 +1,59 @@
+.todoHolder{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.inputSection{
+    margin-bottom: 2rem;
+}
+.inputSection > * {
+    margin-left: 1rem;
+}
+.input{
+    width: 60vw;
+    border: 0px;
+    border-bottom: 2px solid #1572A1;
+    font-family: 'Montserrat', 'San-serif';
+}
+.individualTodo{
+    margin-bottom: .2rem;
+    min-width: 70vw;
+    /* border: 1px solid gray; */
+    padding: .5rem;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.input:focus{
+    outline: none;
+}
+/* .todoTitle{
+} */
+.todoTitle > h4{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.todoTitle > p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btnHolder{
+    margin: auto;
+}
+.btnHolder > button{
+    margin: auto .4rem;
+}
+.doneBtn:hover{
+    background: #96CEB4;
+}
+.deleteBtn:hover{
+    background: #ff150096;
+}
+.submitBtn:hover{
+    background: #4fbdb965;
+}
