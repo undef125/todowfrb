@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./todostyle.module.css";
-import { db } from "../pages/firebase_config"
+import { db } from "../components/firebase_config"
 
 const IndTodo = ({ todo, inProgress, id }) => {
 
