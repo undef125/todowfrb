@@ -6,7 +6,7 @@ const IndTodo = ({ todo, inProgress, id }) => {
 
     const toggleInProgress = () => {
         db.collection("todos").doc(id).update({
-            inProgress: !inProgress
+            inProgress: false
         })
     }
 
@@ -25,7 +25,6 @@ const IndTodo = ({ todo, inProgress, id }) => {
                 <button onClick={() => deleteTodo()} className={style.deleteBtn}>Delete❌</button>
             </div>
 
-            {/* <p>{id}</p> */}
         </div>
     );
 };
